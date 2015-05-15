@@ -1,2 +1,0 @@
-Cmnd_Alias CONCOM = /usr/bin/docker
-consul	ALL=NOPASSWD: CONCOM

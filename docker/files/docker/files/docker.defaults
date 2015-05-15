@@ -1,1 +1,0 @@
-DOCKER_OPTS='-H tcp://{{ internal_ip }}:4243 -H unix:///var/run/docker.sock'

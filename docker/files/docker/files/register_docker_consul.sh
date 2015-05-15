@@ -1,1 +1,0 @@
-curl -X PUT -d '{ "name": "docker", "Address":"{{ internal_ip }}", "tags": [{{ tags }}], "port": 4243, "check": { "script": "sudo docker ps >/dev/null 2>&1", "interval": "10s" }}' http://127.0.0.1:8500/v1/agent/service/register 
